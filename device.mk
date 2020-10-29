@@ -42,6 +42,10 @@ PRODUCT_PACKAGES += \
     libsecril-client \
     secril_config_svc
 
+# Soong namespaces
+PRODUCT_SOONG_NAMESPACES += \
+    $(LOCAL_PATH)
+
 # Vibrator
 PRODUCT_PACKAGES += \
     android.hardware.vibrator-service.legacy
