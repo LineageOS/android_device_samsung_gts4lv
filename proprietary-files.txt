@@ -27,6 +27,7 @@ vendor/etc/audconf/OPEN/Speaker_cal.acdb
 vendor/etc/audconf/OPEN/workspaceFile.qwsp
 
 # RIL
+vendor/bin/hw/rild
 vendor/bin/adpl
 vendor/bin/ATFWD-daemon
 vendor/bin/netmgrd
