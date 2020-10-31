@@ -14,5 +14,10 @@
 # limitations under the License.
 #
 
+# Device init scripts
+PRODUCT_PACKAGES += \
+    init.gts4lv.rc \
+    init.gts4lvxx.rc
+
 # Inherit from gts4lv-common
 $(call inherit-product, device/samsung/gts4lv-common/gts4lv.mk)
