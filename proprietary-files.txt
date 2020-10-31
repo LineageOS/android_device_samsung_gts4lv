@@ -27,6 +27,7 @@ vendor/etc/audconf/OPEN/Speaker_cal.acdb
 vendor/etc/audconf/OPEN/workspaceFile.qwsp
 
 # RIL
+vendor/bin/hw/rild
 vendor/bin/adpl
 vendor/bin/ATFWD-daemon
 vendor/bin/netmgrd
@@ -46,14 +47,14 @@ vendor/etc/plmn_delta_hktw.bin
 vendor/etc/plmn_delta_usagsm.bin
 vendor/etc/plmn_se13.bin
 vendor/etc/sec_config_oem
-vendor/lib/libril.so
+-vendor/lib/libril.so
 vendor/lib64/libconfigdb.so
 vendor/lib64/liblqe.so
 vendor/lib64/libnetmgr.so
 vendor/lib64/libnetmgr_common.so
 vendor/lib64/libpdnotifier.so
 vendor/lib64/libqrtr.so
-vendor/lib64/libril.so
+-vendor/lib64/libril.so
 vendor/lib64/librilutils.so
 vendor/lib64/libsec-ril.so
 vendor/lib64/libsystem_health_mon.so
