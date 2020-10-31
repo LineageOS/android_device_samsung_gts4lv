@@ -17,11 +17,25 @@
 # Get non-open-source specific aspects
 $(call inherit-product-if-exists, vendor/samsung/gts4lv/gts4lv-vendor.mk)
 
+# Local overlays
+DEVICE_PACKAGE_OVERLAYS += \
+    $(LOCAL_PATH)/overlay
+
 # Device init scripts
 PRODUCT_PACKAGES += \
     init.gts4lv.rc \
     init.vendor.rilchip.rc \
     init.vendor.rilcommon.rc
+
+# Permissions
+PRODUCT_COPY_FILES += \
+    frameworks/native/data/etc/android.hardware.telephony.cdma.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.telephony.cdma.xml \
+    frameworks/native/data/etc/android.hardware.telephony.gsm.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.telephony.gsm.xml
+
+# RIL
+PRODUCT_PACKAGES += \
+    librmnetctl \
+    libxml2
 
 # Inherit from gts4lv-common
 $(call inherit-product, device/samsung/gts4lv-common/gts4lv.mk)
