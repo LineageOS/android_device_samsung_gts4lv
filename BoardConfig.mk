@@ -32,5 +32,8 @@ DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 TARGET_KERNEL_CONFIG := gts4lv_defconfig
 BOARD_MKBOOTIMG_ARGS += --board $(TARGET_BOARD_NAME)
 
+# Properties
+TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
+
 # inherit from the proprietary version
 -include vendor/samsung/gts4lv/BoardConfigVendor.mk
