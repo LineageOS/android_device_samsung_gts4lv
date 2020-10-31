@@ -17,5 +17,11 @@
 # Get non-open-source specific aspects
 $(call inherit-product-if-exists, vendor/samsung/gts4lv/gts4lv-vendor.mk)
 
+# Device init scripts
+PRODUCT_PACKAGES += \
+    init.gts4lv.rc \
+    init.vendor.rilchip.rc \
+    init.vendor.rilcommon.rc
+
 # Inherit from gts4lv-common
 $(call inherit-product, device/samsung/gts4lv-common/gts4lv.mk)
