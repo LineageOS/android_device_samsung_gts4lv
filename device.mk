@@ -14,6 +14,9 @@
 # limitations under the License.
 #
 
+# Get non-open-source specific aspects
+$(call inherit-product-if-exists, vendor/samsung/gts4lv/gts4lv-vendor.mk)
+
 # Device init scripts
 PRODUCT_PACKAGES += \
     init.gts4lv.rc \
