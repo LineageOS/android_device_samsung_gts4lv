@@ -1,4 +1,4 @@
-# Device-specific proprietary files - from Samsung package version T725XXU1CTK1
+# Device-specific proprietary files - from Samsung package version T725XXU1CTK1, unless pinned
 
 # ACDB data
 vendor/etc/audconf/ODM/Bluetooth_cal.acdb
@@ -25,6 +25,25 @@ vendor/etc/audconf/OPEN/Hdmi_cal.acdb
 vendor/etc/audconf/OPEN/Headset_cal.acdb
 vendor/etc/audconf/OPEN/Speaker_cal.acdb
 vendor/etc/audconf/OPEN/workspaceFile.qwsp
+
+# DPM - from Z01R - QKQ1.190723.002
+product/bin/dpmd|2ef62dcc2eda82755516059b7062b9440dc345be
+product/etc/dpm/dpm.conf|72275f7a28aa6370acd2e79a4b34c9b5cce045e6
+product/etc/init/dpmd.rc|7f95195a89fddce06b93006a737701270e91f669
+product/etc/permissions/com.qti.dpmframework.xml|4613f8b8629d0b823e6aaab45d399ac30da06c09
+product/etc/permissions/dpmapi.xml|0991b3069308620cfcad53873e9f09af181b981d
+product/framework/com.qti.dpmframework.jar|e39a7e06af2d1e95a3724c19c36b8716277f53a1
+product/framework/dpmapi.jar|4696df9793ad676b305d53b5d7ce65ecf74771ad
+product/lib64/com.qualcomm.qti.dpm.api@1.0.so|d11451750a01f20bb11cec9925dd94239f3ccf6d
+product/lib64/libdpmctmgr.so|b58a85f3ff086a9cc1e37a56ff501b4f603e7e95
+product/lib64/libdpmfdmgr.so|fa8eb6f1b2766604670ffd7c661180ba81657215
+product/lib64/libdpmframework.so|478e9c07575dc4d668c683e54ef614166c09b6d9
+product/lib64/libdpmtcm.so|c6126d36f7295aab51a6e9625922601b0fe26f29
+-product/priv-app/dpmserviceapp/dpmserviceapp.apk|c3ac145fd39dd1b81c07e96c41e020104d89dad4
+vendor/bin/dpmQmiMgr|6a7e0314c090cf1b72228333594b51081df4598b
+vendor/etc/init/dpmQmiMgr.rc|67569302d3a8828a9118c835e5b69c51b0c8ac68
+vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so|bbdd7f162c69a01175ef2a600d906233fbbcd1b7
+vendor/lib64/libdpmqmihal.so|8d99aab282d6ffda813d32700180b24c2617dec3
 
 # RIL
 vendor/bin/hw/rild
