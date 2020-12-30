@@ -123,3 +123,6 @@ on charger
     mount ext4 /dev/block/bootdevice/by-name/carrier /carrier nosuid nodev noatime noauto_da_alloc,discard,data=ordered,errors=panic
     chown system system /carrier
     chmod 0744 /carrier
+
+on property:ro.boot.em.model=*
+    mount none /vendor/firmware/wlanmdsp_${ro.boot.em.model}.mbn /vendor/firmware/wlanmdsp.mbn bind

@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2020 The LineageOS Project
+# Copyright (C) 2020-2021 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -23,4 +23,13 @@ LOCAL_PATH := $(call my-dir)
 
 ifeq ($(TARGET_DEVICE),gts4lv)
 include $(call all-makefiles-under,$(LOCAL_PATH))
+
+WLANMDSP_DUMMY_FILE := $(TARGET_OUT_VENDOR)/firmware/wlanmdsp.mbn
+$(WLANMDSP_DUMMY_FILE): $(LOCAL_INSTALLED_MODULE)
+	@echo "Dummy WLAN firmware file: $@"
+	@mkdir -p $(dir $@)
+	@echo -n > $@
+
+ALL_DEFAULT_INSTALLED_MODULES += $(WLANMDSP_DUMMY_FILE)
+
 endif
