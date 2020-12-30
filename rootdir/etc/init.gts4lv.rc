@@ -123,3 +123,24 @@ on charger
     mount ext4 /dev/block/bootdevice/by-name/carrier /carrier nosuid nodev noatime noauto_da_alloc,discard,data=ordered,errors=panic
     chown system system /carrier
     chmod 0744 /carrier
+
+on property:ro.boot.em.model=SM-T725C
+    mount none /vendor/firmware/wlanmdsp_T725C.mbn /vendor/firmware/wlanmdsp.mbn bind
+
+on property:ro.boot.em.model=SM-T725N
+    mount none /vendor/firmware/wlanmdsp_T725N.mbn /vendor/firmware/wlanmdsp.mbn bind
+
+on property:ro.boot.em.model=SM-T725V
+    mount none /vendor/firmware/wlanmdsp_T725V.mbn /vendor/firmware/wlanmdsp.mbn bind
+
+on property:ro.boot.em.model=SM-T727
+    mount none /vendor/firmware/wlanmdsp_T727.mbn /vendor/firmware/wlanmdsp.mbn bind
+
+on property:ro.boot.em.model=SM-T72R4
+    mount none /vendor/firmware/wlanmdsp_T727R4.mbn /vendor/firmware/wlanmdsp.mbn bind
+
+on property:ro.boot.em.model=SM-T727U
+    mount none /vendor/firmware/wlanmdsp_T727U.mbn /vendor/firmware/wlanmdsp.mbn bind
+
+on property:ro.boot.em.model=SM-T727V
+    mount none /vendor/firmware/wlanmdsp_T727V.mbn /vendor/firmware/wlanmdsp.mbn bind
