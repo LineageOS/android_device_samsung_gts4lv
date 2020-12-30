@@ -23,4 +23,14 @@ LOCAL_PATH := $(call my-dir)
 
 ifeq ($(TARGET_DEVICE),gts4lv)
 include $(call all-makefiles-under,$(LOCAL_PATH))
+
+WLANMDSP_DUMMY_FILE := $(TARGET_OUT_VENDOR)/firmware/wlanmdsp.mbn
+$(WLANMDSP_DUMMY_FILE): $(LOCAL_INSTALLED_MODULE)
+	@echo "WLANMDSP firmware file: $@"
+	@mkdir -p $(dir $@)
+	@rm -rf $@
+	$(hide) touch $@
+
+ALL_DEFAULT_INSTALLED_MODULES += $(WLANMDSP_DUMMY_FILE)
+
 endif
