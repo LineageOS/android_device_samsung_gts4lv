@@ -123,3 +123,15 @@ on charger
     mount ext4 /dev/block/bootdevice/by-name/carrier /carrier nosuid nodev noatime noauto_da_alloc,discard,data=ordered,errors=panic
     chown system system /carrier
     chmod 0744 /carrier
+
+on property:ro.boot.em.model=SM-T727
+    mount none /vendor/firmware/wlanmdsp_T727.mbn /vendor/firmware/wlanmdsp.mbn bind
+
+on property:ro.boot.em.model=SM-T72R4
+    mount none /vendor/firmware/wlanmdsp_T727.mbn /vendor/firmware/wlanmdsp.mbn bind
+
+on property:ro.boot.em.model=SM-T727U
+    mount none /vendor/firmware/wlanmdsp_T727.mbn /vendor/firmware/wlanmdsp.mbn bind
+
+on property:ro.boot.em.model=SM-T727V
+    mount none /vendor/firmware/wlanmdsp_T727.mbn /vendor/firmware/wlanmdsp.mbn bind

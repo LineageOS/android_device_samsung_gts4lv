@@ -67,9 +67,14 @@ vendor/lib64/vendor.samsung.hardware.radio@2.1.so
 vendor/lib64/vendor.samsung.hardware.radio.bridge@2.0.so
 vendor/lib64/vendor.samsung.hardware.radio.channel@2.0.so
 
-# WiFi firmware
-vendor/firmware/wlanmdsp.mbn
+# WiFi firmware (common)
 vendor/firmware/wlan/qca_cld/bdwlan.bin
 vendor/firmware/wlan/qca_cld/bdwlan.bin_FEM
 vendor/firmware/wlan/qca_cld/grippower.info
 vendor/firmware/wlan/qca_cld/regdb.bin
+
+# WiFi firmware (for T725 model)
+vendor/firmware/wlanmdsp.mbn
+
+# WiFi firmware (for T727 model) - from T727JXU1CTK1
+vendor/firmware/wlanmdsp_T727.mbn|d67ac7cbcf09eaa8cff4bdb007027dbc4b6adc80
