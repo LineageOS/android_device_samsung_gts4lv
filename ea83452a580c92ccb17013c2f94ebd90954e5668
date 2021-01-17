@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "d8708189_02a63f18",
+        "filename": "rootdir/etc/init.gts4lv.rc",
+        "patchSetId": 4
+      },
+      "lineNbr": 139,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2021-01-17T13:00:46Z",
+      "side": 1,
+      "message": "SM-T727R4?",
+      "range": {
+        "startLine": 139,
+        "startChar": 29,
+        "endLine": 139,
+        "endChar": 37
+      },
+      "revId": "ea83452a580c92ccb17013c2f94ebd90954e5668",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
