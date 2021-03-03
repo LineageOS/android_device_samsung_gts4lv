@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2020 The LineageOS Project
+# Copyright (C) 2020-2021 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -36,6 +36,6 @@ PRODUCT_GMS_CLIENTID_BASE := android-samsung
 # Use the latest approved GMS identifiers
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=gts4lvxx \
-    PRIVATE_BUILD_DESC="gts4lvxx-user 10 QP1A.190711.020 T725XXU1CTI1 release-keys"
+    PRIVATE_BUILD_DESC="gts4lvxx-user 10 QP1A.190711.020 T725XXS2CUA2 release-keys"
 
-BUILD_FINGERPRINT := "samsung/gts4lvxx/gts4lv:10/QP1A.190711.020/T725XXU1CTI1:user/release-keys"
+BUILD_FINGERPRINT := "samsung/gts4lvxx/gts4lv:10/QP1A.190711.020/T725XXS2CUA2:user/release-keys"
