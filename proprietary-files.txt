@@ -1,4 +1,4 @@
-# Device-specific proprietary files - from Samsung package version T725XXU1CTK1, unless pinned
+# Device-specific proprietary files - from Samsung package version T725XXS2CUA2, unless pinned
 
 # ACDB data
 vendor/etc/audconf/ODM/Bluetooth_cal.acdb
@@ -76,20 +76,20 @@ vendor/firmware/wlan/qca_cld/regdb.bin
 # WiFi firmware (for SM-T725 model)
 vendor/firmware/wlanmdsp.mbn:vendor/firmware/wlanmdsp_SM-T725.mbn
 
-# WiFi firmware (for SM-T725C model) - from T725CZCU1CTK1
-vendor/firmware/wlanmdsp.mbn:vendor/firmware/wlanmdsp_SM-T725C.mbn|bd60313e43059be27b301fbbee7c264346ad4f70
+# WiFi firmware (for SM-T725C model) - from T725CZHU2CUA1
+vendor/firmware/wlanmdsp.mbn:vendor/firmware/wlanmdsp_SM-T725C.mbn|9a31d97b981a3ad1940cb946b1062ff4ea192552
 
-# WiFi firmware (for SM-T725N model) - from T725NKOU1CTK1
-vendor/firmware/wlanmdsp.mbn:vendor/firmware/wlanmdsp_SM-T725N.mbn|6c2ac5e337520d0bed3e0ff147a2a95e44455ebf
+# WiFi firmware (for SM-T725N model) - from T725NKOS2CUA2
+vendor/firmware/wlanmdsp.mbn:vendor/firmware/wlanmdsp_SM-T725N.mbn|305a540b7eea5d731ef63c48848ee12a83edf8f4
 
-# WiFi firmware (for SM-T727 model) - from T727JXU1CTK1
-vendor/firmware/wlanmdsp.mbn:vendor/firmware/wlanmdsp_SM-T727.mbn|d67ac7cbcf09eaa8cff4bdb007027dbc4b6adc80
+# WiFi firmware (for SM-T727 model) - from T727JXS2CUA1
+vendor/firmware/wlanmdsp.mbn:vendor/firmware/wlanmdsp_SM-T727.mbn|59c0e67500ca4ddd1b38c26dcdf432a6c73a91ae
 
 # WiFi firmware (for SM-T727R4 model) - from T727R4TYS1CTK1
 vendor/firmware/wlanmdsp.mbn:vendor/firmware/wlanmdsp_SM-T727R4.mbn|323bc9578769d93539e4ecf8baab66c76a656685
 
-# WiFi firmware (for SM-T727U model) - from T727UUEU1CTI8
-vendor/firmware/wlanmdsp.mbn:vendor/firmware/wlanmdsp_SM-T727U.mbn|591bae30b2bf2192bcb972113012e6330c5efa62
+# WiFi firmware (for SM-T727U model) - from T727UUEU1CTL2
+vendor/firmware/wlanmdsp.mbn:vendor/firmware/wlanmdsp_SM-T727U.mbn|fd16ee6a2fcb0ff90e36d57c1477a4362190fb5b
 
 # WiFi firmware (for SM-T727V model) - from T727VVRS1CTK1
 vendor/firmware/wlanmdsp.mbn:vendor/firmware/wlanmdsp_SM-T727V.mbn|587379c236acf0b9ff11dacefe192297c2a2a0d9
