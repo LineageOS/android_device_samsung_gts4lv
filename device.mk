@@ -15,7 +15,7 @@
 #
 
 # Get non-open-source specific aspects
-$(call inherit-product-if-exists, vendor/samsung/gts4lv/gts4lv-vendor.mk)
+$(call inherit-product, vendor/samsung/gts4lv/gts4lv-vendor.mk)
 
 # Local overlays
 DEVICE_PACKAGE_OVERLAYS += \
