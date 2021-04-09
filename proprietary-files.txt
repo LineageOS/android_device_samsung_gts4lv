@@ -1,4 +1,4 @@
-# Device-specific proprietary files - from Samsung package version T725XXS2CUA2, unless pinned
+# Device-specific proprietary files - from Samsung package version T725XXU2DUD7, unless pinned
 
 # ACDB data
 vendor/etc/audconf/ODM/Bluetooth_cal.acdb
@@ -40,6 +40,7 @@ vendor/etc/locale/plmn_delta_eng.bin
 vendor/etc/locale/plmn_delta_zh-rCN.bin
 vendor/etc/locale/plmn_delta_zh-rHK.bin
 vendor/etc/locale/plmn_delta_zh-rTW.bin
+vendor/etc/seccomp_policy/atfwd@2.0.policy
 vendor/etc/mtu-conf.xml
 vendor/etc/plmn_delta_attaio.bin
 vendor/etc/plmn_delta.bin
@@ -49,17 +50,19 @@ vendor/etc/plmn_se13.bin
 vendor/etc/sec_config_oem
 -vendor/lib/libril.so
 vendor/lib64/libconfigdb.so
+vendor/lib64/libengmode_client.so
 vendor/lib64/liblqe.so
 vendor/lib64/libnetmgr.so
 vendor/lib64/libnetmgr_common.so
 vendor/lib64/libpdnotifier.so
 vendor/lib64/libqrtr.so
 -vendor/lib64/libril.so
+vendor/lib64/librilqmiservices-ext.so
 vendor/lib64/librilutils.so
 vendor/lib64/libsec-ril.so
+vendor/lib64/libsecril-client.so
 vendor/lib64/libsystem_health_mon.so
 vendor/lib64/libvkmanager_vendor.so
-vendor/lib64/libvndsecril-client.so
 vendor/lib64/libxml.so
 vendor/lib64/vendor.qti.hardware.radio.atcmdfwd@1.0.so
 vendor/lib64/vendor.samsung.hardware.radio@2.0.so
@@ -76,14 +79,14 @@ vendor/firmware/wlan/qca_cld/regdb.bin
 # WiFi firmware (for SM-T725 model)
 vendor/firmware/wlanmdsp.mbn:vendor/firmware/wlanmdsp_SM-T725.mbn
 
-# WiFi firmware (for SM-T725C model) - from T725CZHU2CUA1
-vendor/firmware/wlanmdsp.mbn:vendor/firmware/wlanmdsp_SM-T725C.mbn|9a31d97b981a3ad1940cb946b1062ff4ea192552
+# WiFi firmware (for SM-T725C model) - from T725CZCU2DUD7
+vendor/firmware/wlanmdsp.mbn:vendor/firmware/wlanmdsp_SM-T725C.mbn|7fec698f702a0bb7c7ac79a889574cc659fe7d20
 
-# WiFi firmware (for SM-T725N model) - from T725NKOS2CUA2
-vendor/firmware/wlanmdsp.mbn:vendor/firmware/wlanmdsp_SM-T725N.mbn|305a540b7eea5d731ef63c48848ee12a83edf8f4
+# WiFi firmware (for SM-T725N model) - from T725NKOU2DUD7
+vendor/firmware/wlanmdsp.mbn:vendor/firmware/wlanmdsp_SM-T725N.mbn|e86a30299e16c6e50203b33c49e28b825d0ec24e
 
-# WiFi firmware (for SM-T727 model) - from T727JXS2CUA1
-vendor/firmware/wlanmdsp.mbn:vendor/firmware/wlanmdsp_SM-T727.mbn|59c0e67500ca4ddd1b38c26dcdf432a6c73a91ae
+# WiFi firmware (for SM-T727 model) - from T727JXU2DUD3
+vendor/firmware/wlanmdsp.mbn:vendor/firmware/wlanmdsp_SM-T727.mbn|8db8e2151854c88c5e8ce350659aab592dff7c75
 
 # WiFi firmware (for SM-T727R4 model) - from T727R4TYS1CTK1
 vendor/firmware/wlanmdsp.mbn:vendor/firmware/wlanmdsp_SM-T727R4.mbn|323bc9578769d93539e4ecf8baab66c76a656685
