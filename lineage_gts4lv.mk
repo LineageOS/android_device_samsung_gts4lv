@@ -36,6 +36,6 @@ PRODUCT_GMS_CLIENTID_BASE := android-samsung
 # Use the latest approved GMS identifiers
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=gts4lvxx \
-    PRIVATE_BUILD_DESC="gts4lvxx-user 10 QP1A.190711.020 T725XXS2CUA2 release-keys"
+    PRIVATE_BUILD_DESC="gts4lvxx-user 11 RP1A.200720.012 T725XXU2DUD1 release-keys"
 
-BUILD_FINGERPRINT := "samsung/gts4lvxx/gts4lv:10/QP1A.190711.020/T725XXS2CUA2:user/release-keys"
+BUILD_FINGERPRINT := "samsung/gts4lvxx/gts4lv:11/RP1A.200720.012/T725XXU2DUD1:user/release-keys"
