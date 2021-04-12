@@ -40,4 +40,4 @@ BOARD_PROVIDES_LIBRIL := true
 ENABLE_VENDOR_RIL_SERVICE := true
 
 # inherit from the proprietary version
--include vendor/samsung/gts4lv/BoardConfigVendor.mk
+include vendor/samsung/gts4lv/BoardConfigVendor.mk
