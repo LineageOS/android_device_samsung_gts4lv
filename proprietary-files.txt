@@ -31,7 +31,6 @@ vendor/bin/hw/rild
 vendor/bin/adpl
 vendor/bin/ATFWD-daemon
 vendor/bin/netmgrd
-vendor/bin/secril_config_svc
 vendor/etc/data/netmgr_config.xml
 vendor/etc/init/dataadpl.rc
 vendor/etc/init/init-qcril-data.rc
@@ -58,7 +57,6 @@ vendor/lib64/libpdnotifier.so
 vendor/lib64/libqrtr.so
 -vendor/lib64/libril.so
 vendor/lib64/librilqmiservices-ext.so
-vendor/lib64/librilutils.so
 vendor/lib64/libsec-ril.so
 vendor/lib64/libsecril-client.so
 vendor/lib64/libsystem_health_mon.so
