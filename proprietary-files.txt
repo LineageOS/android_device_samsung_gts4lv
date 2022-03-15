@@ -1,4 +1,4 @@
-# Device-specific proprietary files - from Samsung package version T725XXS2DUH2, unless pinned
+# Device-specific proprietary files - from Samsung package version T725XXU2DUJ1, unless pinned
 
 # ACDB data
 vendor/etc/audconf/ODM/Bluetooth_cal.acdb
@@ -56,7 +56,7 @@ vendor/lib64/libnetmgr_common.so
 vendor/lib64/libpdnotifier.so
 vendor/lib64/libqrtr.so
 -vendor/lib64/libril.so
-vendor/lib64/librilqmiservices-ext.so
+vendor/lib64/libqmiextservices.so
 vendor/lib64/libsec-ril.so
 vendor/lib64/libsecril-client.so
 vendor/lib64/libsystem_health_mon.so
@@ -65,7 +65,9 @@ vendor/lib64/libxml.so
 vendor/lib64/vendor.qti.hardware.radio.atcmdfwd@1.0.so
 vendor/lib64/vendor.samsung.hardware.radio@2.0.so
 vendor/lib64/vendor.samsung.hardware.radio@2.1.so
+vendor/lib64/vendor.samsung.hardware.radio@2.2.so
 vendor/lib64/vendor.samsung.hardware.radio.bridge@2.0.so
+vendor/lib64/vendor.samsung.hardware.radio.bridge@2.1.so
 vendor/lib64/vendor.samsung.hardware.radio.channel@2.0.so
 
 # WiFi firmware (common)
