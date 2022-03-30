@@ -16,6 +16,23 @@
       "message": "Looks okay. Stock prop is ro.vendor.sec.radio.def_network\u003d9, by the way, but AOSP prop is all we need here. ",
       "revId": "c70fd4a9a136bf4f299d2a1e4c2ecdaf4e0fc1ca",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7d13e4d5_b14a148b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 29147
+      },
+      "writtenOn": "2022-03-30T15:24:28Z",
+      "side": 1,
+      "message": "Oh yeah thats true. I must have been grepping for default_network in both getprop and source code and switched at some point",
+      "revId": "c70fd4a9a136bf4f299d2a1e4c2ecdaf4e0fc1ca",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
