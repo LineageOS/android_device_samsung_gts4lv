@@ -46,6 +46,9 @@ PRODUCT_PACKAGES += \
     libxml2 \
     secril_config_svc
 
+PRODUCT_VENDOR_PROPERTIES += \
+    ro.telephony.default_network=9
+
 # Vibrator
 PRODUCT_PACKAGES += \
     android.hardware.vibrator@1.0-impl \
