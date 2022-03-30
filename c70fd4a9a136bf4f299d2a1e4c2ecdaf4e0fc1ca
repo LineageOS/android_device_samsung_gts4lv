@@ -50,6 +50,24 @@
       "message": "Actually my stock rom had both but the vendor one didnt have \"sec\" \nro.vendor.radio.def_network\u003d9",
       "revId": "c70fd4a9a136bf4f299d2a1e4c2ecdaf4e0fc1ca",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4ebef0c3_e8b01ff6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2022-03-30T15:31:47Z",
+      "side": 1,
+      "message": "You confirm that this one alone works, right?",
+      "parentUuid": "d17e7e76_183e0b0f",
+      "revId": "c70fd4a9a136bf4f299d2a1e4c2ecdaf4e0fc1ca",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
