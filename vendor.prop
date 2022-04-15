@@ -1,3 +1,6 @@
+# Bluetooth
+bluetooth.device.default_name=Galaxy Tab S5e LTE
+
 # RIL
 ro.carrier=unknown
 ro.radio.noril=no
