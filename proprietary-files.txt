@@ -80,20 +80,20 @@ vendor/firmware/wlan/qca_cld/regdb.bin
 # WiFi firmware (for SM-T725 model)
 vendor/firmware/wlanmdsp.mbn:vendor/firmware/wlanmdsp_SM-T725.mbn
 
-# WiFi firmware (for SM-T725C model) - from T725CZCS2DUH2
-vendor/firmware/wlanmdsp.mbn:vendor/firmware/wlanmdsp_SM-T725C.mbn|80bb2636227caa3be461d6518b2088829a3e5d20
+# WiFi firmware (for SM-T725C model) - from T725CZCS3DWA1
+vendor/firmware/wlanmdsp.mbn:vendor/firmware/wlanmdsp_SM-T725C.mbn|d0a3e27e0d65561c8df10a53ae00f8ae487272b6
 
-# WiFi firmware (for SM-T725N model) - from T725NKOS2DUH2
-vendor/firmware/wlanmdsp.mbn:vendor/firmware/wlanmdsp_SM-T725N.mbn|4cf11540d7b2f05274d04e11e6df664fa1283c2e
+# WiFi firmware (for SM-T725N model) - from T725NKOS3DWA1
+vendor/firmware/wlanmdsp.mbn:vendor/firmware/wlanmdsp_SM-T725N.mbn|af9c47fcfd38f90ae9ad92e993d32bc723f7171c
 
-# WiFi firmware (for SM-T727 model) - from T727JXS2DUH1
-vendor/firmware/wlanmdsp.mbn:vendor/firmware/wlanmdsp_SM-T727.mbn|21f26eafc343ed492b5c2106a746f49e74a4722d
+# WiFi firmware (for SM-T727 model) - from T727JXS3DWA1
+vendor/firmware/wlanmdsp.mbn:vendor/firmware/wlanmdsp_SM-T727.mbn|23dc29f3ff009eaca9c6c478991f31b4a2993532
 
-# WiFi firmware (for SM-T727R4 model) - from T727R4TYU2DUG2
-vendor/firmware/wlanmdsp.mbn:vendor/firmware/wlanmdsp_SM-T727R4.mbn|2480b9b3bc9096bd6d63f90e458d4e706b1fd6fb
+# WiFi firmware (for SM-T727R4 model) - from T727R4TYS4DVI2
+vendor/firmware/wlanmdsp.mbn:vendor/firmware/wlanmdsp_SM-T727R4.mbn|0015e0842d6394465aa77060e49228323945f9b0
 
-# WiFi firmware (for SM-T727U model) - from T727UUEU2DUG2
-vendor/firmware/wlanmdsp.mbn:vendor/firmware/wlanmdsp_SM-T727U.mbn|c1ddce92c1bb2065f9e084c99095e7294b27d568
+# WiFi firmware (for SM-T727U model) - from T727UUES4DVI1
+vendor/firmware/wlanmdsp.mbn:vendor/firmware/wlanmdsp_SM-T727U.mbn|85daf7aec15742ec1786ee83c650fc238805355b
 
-# WiFi firmware (for SM-T727V model) - from T727VVRU2DUE2
-vendor/firmware/wlanmdsp.mbn:vendor/firmware/wlanmdsp_SM-T727V.mbn|9fe87436d052a1b709a7d4f558a6885e77655d1f
+# WiFi firmware (for SM-T727V model) - from T727VVRS4DVI3
+vendor/firmware/wlanmdsp.mbn:vendor/firmware/wlanmdsp_SM-T727V.mbn|ba5f84daf69f241f9794ec114303d18f4f80fa91
