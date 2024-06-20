@@ -48,8 +48,7 @@ PRODUCT_PACKAGES += \
 
 # Vibrator
 PRODUCT_PACKAGES += \
-    android.hardware.vibrator@1.0-impl \
-    android.hardware.vibrator@1.0-service
+    vendor.qti.hardware.vibrator.service
 
 # Inherit from gts4lv-common
 $(call inherit-product, device/samsung/gts4lv-common/gts4lv.mk)
