@@ -39,14 +39,8 @@ PRODUCT_COPY_FILES += \
 
 # RIL
 PRODUCT_PACKAGES += \
-    android.hardware.radio@1.4.vendor \
-    android.hardware.radio.config@1.2.vendor \
-    android.hardware.radio.deprecated@1.0.vendor \
-    librmnetctl \
-    libxml2 \
     libsecril-client \
-    secril_config_svc \
-    vendor.samsung.hardware.radio@2.2.vendor
+    secril_config_svc
 
 # Vibrator
 PRODUCT_PACKAGES += \
