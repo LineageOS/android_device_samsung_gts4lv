@@ -56,7 +56,6 @@ vendor/lib64/libnetmgr_common.so
 vendor/lib64/libpdnotifier.so
 vendor/lib64/libqmiextservices.so
 vendor/lib64/libqmiservices-sem-ext.so
-vendor/lib64/libqrtr.so
 -vendor/lib64/libril.so
 vendor/lib64/libsec-ril.so
 vendor/lib64/libsystem_health_mon.so
