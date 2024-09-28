@@ -44,6 +44,7 @@ PRODUCT_PACKAGES += \
     android.hardware.radio.deprecated@1.0.vendor \
     librmnetctl \
     libxml2 \
+    libsecril-client \
     secril_config_svc \
     vendor.samsung.hardware.radio@2.2.vendor
 
