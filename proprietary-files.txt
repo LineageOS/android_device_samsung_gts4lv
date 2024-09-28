@@ -48,11 +48,15 @@ vendor/etc/plmn_delta_usagsm.bin
 vendor/etc/plmn_se13.bin
 vendor/etc/sec_config_oem
 -vendor/lib/libril.so
+vendor/lib/vendor.samsung.hardware.radio.bridge@2.0.so
+vendor/lib/vendor.samsung.hardware.radio.bridge@2.1.so
 vendor/lib64/libconfigdb.so
+vendor/lib64/libdsi_netctrl.so
 vendor/lib64/libengmode_client.so
 vendor/lib64/liblqe.so
 vendor/lib64/libnetmgr.so
 vendor/lib64/libnetmgr_common.so
+vendor/lib64/libnlnetmgr.so
 vendor/lib64/libpdnotifier.so
 vendor/lib64/libqmiextservices.so
 vendor/lib64/libqmiservices-sem-ext.so
