@@ -31,13 +31,11 @@ PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-T725
 PRODUCT_MANUFACTURER := samsung
 
-PRODUCT_SYSTEM_NAME := gts4lvxx
-
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
 
 # Use the latest approved GMS identifiers
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    TARGET_PRODUCT=gts4lvxx \
-    PRIVATE_BUILD_DESC="gts4lvxx-user 11 RP1A.200720.012 T725XXS3DWA1 release-keys"
-
-BUILD_FINGERPRINT := "samsung/gts4lvxx/gts4lv:11/RP1A.200720.012/T725XXS3DWA1:user/release-keys"
+    DeviceProduct=gts4lvxx \
+    SystemName=gts4lvxx \
+    BuildDesc="gts4lvxx-user 11 RP1A.200720.012 T725XXS3DWA1 release-keys" \
+    BuildFingerprint := "samsung/gts4lvxx/gts4lv:11/RP1A.200720.012/T725XXS3DWA1:user/release-keys"
