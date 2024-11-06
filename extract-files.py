@@ -6,7 +6,7 @@
 
 from extract_utils.fixups_lib import (
     lib_fixup_vendorcompat,
-    lib_fixups_user_type,
+    lib_fixups,
     libs_proto_3_9_1,
 )
 from extract_utils.main import (
@@ -19,10 +19,6 @@ namespace_imports = [
     'vendor/qcom/opensource/dataservices',
     'vendor/samsung/gts4lv-common',
 ]
-
-lib_fixups: lib_fixups_user_type = {
-    libs_proto_3_9_1: lib_fixup_vendorcompat,
-}
 
 module = ExtractUtilsModule(
     'gts4lv',
