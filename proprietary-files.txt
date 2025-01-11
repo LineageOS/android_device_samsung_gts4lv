@@ -77,7 +77,7 @@ vendor/firmware/wlan/qca_cld/grippower.info
 vendor/firmware/wlan/qca_cld/regdb.bin
 
 # WiFi firmware (for SM-T725 model)
-vendor/firmware/wlanmdsp.mbn:vendor/firmware/wlanmdsp_SM-T725.mbn
+vendor/firmware/wlanmdsp.mbn:vendor/firmware/wlanmdsp_SM-T725.mbn;SYMLINK=vendor/firmware/wlanmdsp.mbn
 
 # WiFi firmware (for SM-T725C model) - from T725CZCS3DWA1
 vendor/firmware/wlanmdsp.mbn:vendor/firmware/wlanmdsp_SM-T725C.mbn|d0a3e27e0d65561c8df10a53ae00f8ae487272b6
