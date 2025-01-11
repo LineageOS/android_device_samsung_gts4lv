@@ -1,2 +1,13 @@
+//
+// Copyright (C) 2025 The LineageOS Project
+// SPDX-License-Identifier: Apache-2.0
+//
+
 soong_namespace {
+}
+
+prebuilt_firmware {
+    name: "wlanmdsp.mbn",
+    src: "wifi/wlanmdsp.mbn",
+    soc_specific: true,
 }
