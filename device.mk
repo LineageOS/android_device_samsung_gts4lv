@@ -50,5 +50,9 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_PACKAGES += \
     android.hardware.vibrator-service.legacy
 
+# WiFi firmware
+PRODUCT_PACKAGES += \
+    wlanmdsp.mbn
+
 # Inherit from gts4lv-common
 $(call inherit-product, device/samsung/gts4lv-common/gts4lv.mk)
